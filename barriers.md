@@ -165,7 +165,7 @@ by barrier types:
 ::::::::::::
 :::::::::::::::
 
-# thanks for the attention! {background-color="#181d37" .text-color-white background-image="assets/corvinus_neti_white.svg" background-size="23vw" background-position="1.25rem calc(100% - 1.25rem)" .light-slide-number}
+# thanks for the attention! {background-color="#181d37" .text-color-white background-image="assets/aneti_cub_white.svg" background-size="23vw" background-position="1.25rem calc(100% - 1.25rem)" .light-slide-number}
 <!-- # thanks for the attention! {background-color="#181d37" .text-color-white background-size="23vw" background-position="1.25rem calc(100% - 1.25rem)"} -->
 
 ::: {.text-color-white}
