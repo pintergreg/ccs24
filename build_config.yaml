@@ -1,3 +1,4 @@
+markdown: "barriers.md"
 self_contained: false
 bibliography:
     - "references.bib"
