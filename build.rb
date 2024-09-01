@@ -21,7 +21,7 @@ OptionParser.new do |parser|
   parser.on('-e', '--embed-resources', 'embed resources') do |_s|
     options["embed_resources"] = true
   end
-  parser.on('--reveal-url REVEALURL', 'RevealJS URL') do |url|
+  parser.on('--revealjs-url REVEALURL', 'RevealJS URL') do |url|
     options["reveal_url"] = "-V revealjs-url:\"#{url}\""
   end
 end.parse!
@@ -47,7 +47,7 @@ options["bibliography"].each do |bibfile|
   arguments += " --bibliography #{bibfile}"
 end
 if options["mathml"]
-  arguments += " --mathml #{options["reveal_url"]}"
+  arguments += " --mathml #{options["revealjs-url"]}"
 end
 # arguments += " -H #{options["assets"]}/custom_header.html -A #{options["assets"]}/custom_after_body.html"
 
