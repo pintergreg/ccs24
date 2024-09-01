@@ -178,7 +178,7 @@ this presentation is available online: [[pintergreg.github.io/ccs24](https://pin
 
 ::::::::::::
 :::::::::::: {.column width="45%"}
-preprint available:
+already available on [[arXiv](https://arxiv.org/abs/2312.11343)]{.anchor-color-lightblue}:
 
 [![](assets/arxiv_qr_code.png){width=350}](https://arxiv.org/abs/2312.11343)
 
