@@ -174,10 +174,6 @@ li.fragment.visible.current-fragment {
 
     margin-top: 2.5rem;
 }
-@font-face {
-    font-family: 'GochiHand';
-    src: url('assets/GochiHand-Regular.ttf');
-}
 .stamp {
     color: #ff0b07;
     transform: rotate(-3deg);
