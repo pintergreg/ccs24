@@ -1,5 +1,5 @@
-markdown: "barriers.md"
-self_contained: false
+markdown: "barriers" # without extension
+embed_resources: true
 bibliography:
     - "references.bib"
 citeproc: true
