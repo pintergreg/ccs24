@@ -5,7 +5,7 @@ from qrcode.image.styles.moduledrawers.pil import RoundedModuleDrawer
 from qrcode.image.styles.colormasks import SolidFillColorMask
 
 
-def create_qr_code(url: str):
+def create_qr_code(url: str) -> StyledPilImage:
     qr = qrcode.QRCode(
         version=1,
         error_correction=qrcode.constants.ERROR_CORRECT_M,
@@ -26,9 +26,9 @@ def create_qr_code(url: str):
     return img
 
 
-img_arxiv = create_qr_code("https://arxiv.org/abs/2312.11343")
-img_arxiv.save("../assets/arxiv_qr_code.png")
+if __name__ == "__main__":
+    img_arxiv = create_qr_code("https://arxiv.org/abs/2312.11343")
+    img_arxiv.save("../assets/arxiv_qr_code.png")
 
-
-img_slides = create_qr_code("https://pintergreg.github.io/ccs24")
-img_slides.save("../assets/slides_qr_code.png")
+    img_slides = create_qr_code("https://pintergreg.github.io/ccs24")
+    img_slides.save("../assets/slides_qr_code.png")
