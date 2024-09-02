@@ -24,3 +24,24 @@ img_s = qr.make_image(
     ),
 )
 img_s.save("../assets/arxiv_qr_code.png")
+
+
+url = "https://pintergreg.github.io/ccs24"
+qr = qrcode.QRCode(
+    version=1,
+    error_correction=qrcode.constants.ERROR_CORRECT_M,
+    box_size=20,
+    border=2,
+)
+qr.add_data(url)
+qr.make(fit=True)
+
+img_s = qr.make_image(
+    image_factory=StyledPilImage,
+    module_drawer=RoundedModuleDrawer(),
+    color_mask=SolidFillColorMask(
+        back_color=(24, 29, 55),
+        front_color=(255, 255, 255),
+    ),
+)
+img_s.save("../assets/slides_qr_code.png")
