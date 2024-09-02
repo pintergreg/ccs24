@@ -15,7 +15,20 @@ title-slide-attributes:
 #    data-r-heading-color: "#FFFF55"
 slideNumber: "true"
 showSlideNumber: "print"
+#revealjs-url: "http://127.0.0.1/reveal.js-5.1.0/"
+revealjs-url: "assets/reveal.js-5.1.0/"
 ---
+
+# motivation
+
+::: {.r-stretch}
+all roads lead to Rome
+:::
+
+::: notes
+- If we take that literately and kinda reverse it, we get that the roads lead where the romans wanted to go.
+- My point is, roads are built to connect places.
+:::
 
 ## motivation
 
@@ -39,11 +52,29 @@ showSlideNumber: "print"
 ::::::::::::::
 
 ::: notes
-- transportation infrastructure are built to connect places
-- but the elements of this infrastructure can also separate neighborhoods
-- especially if it is a wide, multilane road
-- we can consider a road as a connecting and a separating element of the fabric of a city
-- as if two orthogonal forces act regarding a road
+- So in a sense, a road has a power to bring places closer to each other.
+- Although not in a way as an Eistein-Rosen bridge; blending the space.
+- But at the same time, a road can have an orthogonal effect: separating places, thus separating people.
+- The photo show a multilane road to illustrate my point.
+- This particular road separates two neighborhood. I guess I can safely say that people do not really cross this unless they really have to.
+- The duality of the transportation infrastructure is motivated out work.
+
+<!-- - transportation infrastructure are built to connect places -->
+<!-- - but the elements of this infrastructure can also separate neighborhoods -->
+<!-- - especially if it is a wide, multilane road -->
+<!-- - we can consider a road as a connecting and a separating element of the fabric of a city -->
+<!-- - as if two orthogonal forces act regarding a road -->
+:::
+
+## amenities enter the equation
+
+[@juhasz2023amenity]
+
+::: notes
+- actually, the equation is not complete; amenities also influence the mobility
+- amenities attract people and that attraction force could be strong enough to make people overcome any barriers
+- for example, the workplace or an amenity with unique behavior
+    - in an earlier work, we defined that uniqueness as complexity applying economic complexity to the urban mobility setting and also found that complex amenities foster social mixing
 :::
 
 ## motivation
@@ -55,13 +86,15 @@ showSlideNumber: "print"
 ::::::::::::::
 
 ::: notes
+- I like this photo, not just because it is beautiful, catchy to the eye, but because of the kindness of concept.
+    - building 
 - the barrier effect, the separating force 
-- sometimes bridges solely for the wildlife are built to overcome this issue
+- some bridges are built solely for the wildlife to overcome this issue
 - in an urban scenario, even a crosswalk, especially with traffic lamps could help
 :::
 
 
-## mobile positioning data
+# mobile positioning data
 
 :::::::::::::: {.columns}
 ::: {.column width="55%"}
@@ -78,7 +111,7 @@ showSlideNumber: "print"
 ::::::::::::::
 
 ::: notes
-- the mobility data is collected and aggregated from various and unknown smartphone applications
+- we have the mobility data collected and aggregated from various and unknown smartphone applications
 - a record has a timestamp, a user ID and GPS location
 - we have two years of data for the whole country
 :::
@@ -96,7 +129,7 @@ showSlideNumber: "print"
 ::::::::::::::
 
 
-## community detection
+# community detection
 
 :::::::::::::: {.columns}
 :::::: {.column .center-content width="55%"}
@@ -117,13 +150,13 @@ showSlideNumber: "print"
 :::::: {.column width="40%"}
 ![infrastructural barriers: primary and secondary (dotted) roads](figures/louvain_resolution2.5_two_level_barriers.png)
 ::::::
-:::::: {.column width="40%"}
+:::::: {.column width="40%" .fragment}
 ![administrative boundaries:<br/>districts and neighborhood (dotted)](figures/louvain_resolution2.5_two_level_districts.png)
 ::::::
 ::::::::::::::
 
 
-## barrier crossing ratio
+# barrier crossing ratio
 
 ::::::::::::::: {.columns}
 :::::::::::: {.column width="50%"}

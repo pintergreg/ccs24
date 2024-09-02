@@ -5,8 +5,6 @@ bibliography:
 citeproc: true
 csl: "assets/ieee.csl"
 mathml: true
-reveal_url:
-# reveal_url: "http://127.0.0.1/reveal.js-5.1.0/"
 assets: "assets"
 exclude:
     - README
