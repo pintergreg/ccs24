@@ -9,7 +9,8 @@ institute: >-
 
 title-slide-attributes:
     data-background-color: "#181d37"
-    data-background-image: assets/aneti_cub_white.svg
+    #data-background-image: assets/aneti_cub_white.svg
+    data-background-image: assets/corvinus_and_aneti.svg
     data-background-size: 23vw
     data-background-position: 1.25rem calc(100% - 1.25rem)
 #    data-r-heading-color: "#FFFF55"
