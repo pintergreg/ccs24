@@ -19,15 +19,13 @@ showSlideNumber: "print"
 revealjs-url: "assets/reveal.js-5.1.0/"
 ---
 
-# motivation
-
-::: {.r-stretch}
+::: {.r-fit-text}
 all roads lead to Rome
 :::
 
 ::: notes
-- If we take that literately and kinda reverse it, we get that the roads lead where the romans wanted to go.
-- My point is, roads are built to connect places.
+- if we take that literately and kinda reverse it, we get that the roads lead where the romans wanted to go
+- my point is, roads are built to connect places
 :::
 
 ## motivation
@@ -198,7 +196,34 @@ by barrier types:
 ::::::::::::
 :::::::::::::::
 
-# thanks for the attention! {background-color="#181d37" .text-color-white background-image="assets/aneti_cub_white.svg" background-size="23vw" background-position="1.25rem calc(100% - 1.25rem)" .light-slide-number}
+::: notes
+:::
+
+# Nagoya metropolitan area
+
+:::::::::::::: {.columns}
+:::::: {.column width="50%"}
+![municipality boundaries<br>wards (dotted)](figures/nagoya_communities_res_5.png){width=325}
+::::::
+:::::: {.column width="50%" .fragment}
+![higher order roads](figures/nagoya_communities_roads_res_5.png){width=325}
+::::::
+::::::::::::::
+
+::: {.text-smaller}
+open data (YJMob100K): [@yabe2024yjmob100k] | preprocessing (preprint): [@pinter2024revealing]
+:::
+
+::: notes
+- I replicated this useing another data set about the Nagoya metropolitan 
+:::
+
+## BCR × Nagoya
+
+![](figures/road1_bcr.png){width=650}
+
+
+# thanks for the attention! {background-color="#181d37" .text-color-white background-image="assets/by-sa.svg" background-size="10vw" background-position="1.25rem calc(100% - 1.25rem)" .light-slide-number}
 <!-- # thanks for the attention! {background-color="#181d37" .text-color-white background-size="23vw" background-position="1.25rem calc(100% - 1.25rem)"} -->
 
 ::: {.text-color-white}
@@ -209,9 +234,13 @@ Gergő Pintér, <span class="text-color-lightblue">gergo.pinter&ThinSpace;&#64;&
 :::::::::::: {.column width="50%"}
 this presentation is available online: [[pintergreg.github.io/ccs24](https://pintergreg.github.io/ccs24)]{.text-size-2 .anchor-color-lightblue}
 
+[![](assets/gh_discussions.png)](https://github.com/pintergreg/ccs24/discussions)
+
+we are looking for contributors<br>with compatible data
+
 ::::::::::::
 :::::::::::: {.column width="45%"}
-already available on [[arXiv](https://arxiv.org/abs/2312.11343)]{.anchor-color-lightblue}:
+already available on [[arXiv](https://arxiv.org/abs/2312.11343)]{.anchor-color-lightblue}:<br>2312.11343
 
 [![](assets/arxiv_qr_code.png){width=350}](https://arxiv.org/abs/2312.11343)
 
