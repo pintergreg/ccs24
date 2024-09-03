@@ -9,14 +9,11 @@ institute: >-
 
 title-slide-attributes:
     data-background-color: "#181d37"
-    #data-background-image: assets/aneti_cub_white.svg
     data-background-image: assets/corvinus_and_aneti.svg
     data-background-size: 23vw
     data-background-position: 1.25rem calc(100% - 1.25rem)
-#    data-r-heading-color: "#FFFF55"
 slideNumber: "true"
 showSlideNumber: "print"
-#revealjs-url: "http://127.0.0.1/reveal.js-5.1.0/"
 revealjs-url: "assets/reveal.js-5.1.0/"
 ---
 
@@ -48,7 +45,6 @@ all roads lead to Rome
 ::: {.fragment data-fragment-index=1}
 ![Nagykőrösi road, Budapest<br/>by [vst](https://www.mapillary.com/app/user/vst) via [Mapillary](https://www.mapillary.com/app/?lat=47.45252492224&lng=19.11784766168&z=17&pKey=1294650608077501&focus=photo) [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)](figures/vst_1294650608077501_20230915_cropped.jpg)
 :::
-<!-- :::::: -->
 :::::::::
 ::::::::::::::
 
@@ -329,7 +325,6 @@ open data (YJMob100K): [@yabe2024yjmob100k] | preprocessing (preprint): [@pinter
 
 
 # thanks for the attention! {background-color="#181d37" .text-color-white background-image="assets/by-sa.svg" background-size="10vw" background-position="1.25rem calc(100% - 1.25rem)" .light-slide-number}
-<!-- # thanks for the attention! {background-color="#181d37" .text-color-white background-size="23vw" background-position="1.25rem calc(100% - 1.25rem)"} -->
 
 ::: {.text-color-white}
 Gergő Pintér, <span class="text-color-lightblue">gergo.pinter&ThinSpace;&#64;&ThinSpace;uni-corvinus.hu</span>, \@pintergreg[![](assets/twitter.svg){.svg-invert}](https://twitter.com/pintergreg) [![](assets/github.svg){.svg-invert}](https://github.com/pintergreg) [![](assets/bluesky.svg){.svg-invert}](https://bsky.app/profile/pintergreg.bsky.social)
