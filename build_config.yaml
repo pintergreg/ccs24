@@ -3,7 +3,7 @@ embed_resources: true
 bibliography:
     - "references.bib"
 citeproc: true
-csl: "assets/ieee.csl"
+csl: "assets/apa.csl"
 mathml: true
 assets: "assets"
 exclude:
