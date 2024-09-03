@@ -19,6 +19,7 @@ showSlideNumber: "print"
 revealjs-url: "assets/reveal.js-5.1.0/"
 ---
 
+# {visibility=hidden}
 ::: {.r-fit-text}
 all roads lead to Rome
 :::
@@ -28,7 +29,8 @@ all roads lead to Rome
 - my point is, roads are built to connect places
 :::
 
-## motivation
+
+# motivation
 
 :::::::::::::: {.columns}
 ::::::::: {.column width="30%"}
@@ -64,18 +66,39 @@ all roads lead to Rome
 <!-- - as if two orthogonal forces act regarding a road -->
 :::
 
+
 ## amenities enter the equation
 
-[@juhasz2023amenity]
+:::::::::::::: {.columns}
+::::::::: {.column width="50%"}
+:::::: {.r-stack}
+::: {}
+![](figures/route_connect_and_divide.png){width=350}
+
+:::
+::: {.fragment data-fragment-index=1}
+![](figures/amenity_attracts.png){width=350}
+
+:::
+::::::
+:::::::::
+::::::::: {.column width="50%" .mt-5}
+- complex amenities foster social mixing [@juhasz2023amenity]
+- complex as in economic complexity
+- still working combining the two branches of research
+:::::::::
+::::::::::::::
+
 
 ::: notes
-- actually, the equation is not complete; amenities also influence the mobility
+- I'm not gonna lie, the equation is not complete; amenities also influence the mobility
 - amenities attract people and that attraction force could be strong enough to make people overcome any barriers
 - for example, the workplace or an amenity with unique behavior
     - in an earlier work, we defined that uniqueness as complexity applying economic complexity to the urban mobility setting and also found that complex amenities foster social mixing
 :::
 
-## motivation
+
+## motivation {visibility=hidden}
 
 :::::::::::::: {.columns}
 ::: {.column width="67%"}
@@ -97,8 +120,9 @@ all roads lead to Rome
 :::::::::::::: {.columns}
 ::: {.column width="55%"}
 ![](figures/pings_stops.png){height=375}
+
 :::
-::: {.column width="45%" .text-smallerx .mt-5}
+::: {.column width="45%" .text-smallerx .mt-3}
 - collected from various, unspecified smartphone apps
     - timestamp, user ID, location
     - GPS-based location
@@ -199,6 +223,53 @@ by barrier types:
 ::: notes
 :::
 
+
+## classify users based on home location
+
+trips within Budapest are considered
+
+::: {.fragment data-fragment-index=3}
+but the classification is not restricted to Budapest
+:::
+
+:::::: {.r-stack}
+::: { .mt-5 .current-visible}
+![](figures/trips.drawio.png){width=400}
+:::
+::: {.fragment data-fragment-index=3 .mt-5 .current-visible}
+![](figures/trips_and_homes.drawio.png){width=400}
+:::
+::::::
+
+
+## decomposing barrier crossing ratio
+
+:::::::::::::: {.columns}
+:::::: {.column width="30%"}
+![](figures/map_with_legend_diverging.png)
+
+::::::
+:::::: {.column width="70%" .fragment}
+![](figures/bcr_orig_comm_diverging.png)
+
+::::::
+::::::::::::::
+
+
+## decomposing barrier crossing ratio
+
+:::::::::::::: {.columns}
+:::::: {.column width="30%"}
+![](figures/map_with_legend.png)
+
+::::::
+:::::: {.column width="70%"}
+![](figures/bcr_orig_comm.png)
+
+::::::
+::::::::::::::
+
+
 # Nagoya metropolitan area
 
 :::::::::::::: {.columns}
@@ -220,6 +291,7 @@ open data (YJMob100K): [@yabe2024yjmob100k] | preprocessing (preprint): [@pinter
 - what does not align at all is the road network, which is a huge difference between the Budapest and the Japanese results
 :::
 
+
 ## BCR × Nagoya
 
 ![](figures/road1_bcr.png){width=650}
@@ -231,6 +303,7 @@ open data (YJMob100K): [@yabe2024yjmob100k] | preprocessing (preprint): [@pinter
 - however, the barrier effect is just the opposite compared to Budapest regarding Nagoya dwellers and others
 - it still needs more study to completely understand the reason of this; my educated guess is that the different transportation culture leads to the different community alignments, which cases the opposite relation in the BCR
 :::
+
 
 
 # thanks for the attention! {background-color="#181d37" .text-color-white background-image="assets/by-sa.svg" background-size="10vw" background-position="1.25rem calc(100% - 1.25rem)" .light-slide-number}
