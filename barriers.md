@@ -203,10 +203,10 @@ by barrier types:
 
 :::::::::::::: {.columns}
 :::::: {.column width="50%"}
-![municipality boundaries<br>wards (dotted)](figures/nagoya_communities_res_5.png){width=325}
+![municipality boundaries<br>wards (dotted)](figures/nagoya_communities_res_5.png){width=335}
 ::::::
 :::::: {.column width="50%" .fragment}
-![higher order roads](figures/nagoya_communities_roads_res_5.png){width=325}
+![higher order roads](figures/nagoya_communities_roads_res_5.png){width=335}
 ::::::
 ::::::::::::::
 
@@ -215,12 +215,22 @@ open data (YJMob100K): [@yabe2024yjmob100k] | preprocessing (preprint): [@pinter
 :::
 
 ::: notes
-- I replicated this useing another data set about the Nagoya metropolitan 
+- I replicated this using another data set about the Nagoya metropolitan, which follows 100.000 people in a 100 km by 100 km metropolitan area
+- we can see that Louvain communities align with the municipality boundaries pretty well, though sometimes multiple municipalities form a community just as we saw it in the case of Budapest
+- what does not align at all is the road network, which is a huge difference between the Budapest and the Japanese results
 :::
 
 ## BCR × Nagoya
 
 ![](figures/road1_bcr.png){width=650}
+
+::: notes
+- I also calculated the individual barrier crossing ratio for the Japanese data
+- the trends are the same, but that's the less interesting
+- I wanted to replicate the experiment distinguishing the people by residence, so I formed two categories, people having home in and out of Nagoya
+- however, the barrier effect is just the opposite compared to Budapest regarding Nagoya dwellers and others
+- it still needs more study to completely understand the reason of this; my educated guess is that the different transportation culture leads to the different community alignments, which cases the opposite relation in the BCR
+:::
 
 
 # thanks for the attention! {background-color="#181d37" .text-color-white background-image="assets/by-sa.svg" background-size="10vw" background-position="1.25rem calc(100% - 1.25rem)" .light-slide-number}
