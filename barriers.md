@@ -50,7 +50,7 @@ all roads lead to Rome
 
 ::: notes
 - So in a sense, a road has a power to bring places closer to each other.
-- Although not in a way as an Eistein-Rosen bridge; blending the space.
+- Maybe not in a way as an Eintein-Rosen bridge; blending the space.
 - But at the same time, a road can have an orthogonal effect: separating places, thus separating people.
 - The photo show a multilane road to illustrate my point.
 - This particular road separates two neighborhood. I guess I can safely say that people do not really cross this unless they really have to.
