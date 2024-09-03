@@ -305,6 +305,27 @@ open data (YJMob100K): [@yabe2024yjmob100k] | preprocessing (preprint): [@pinter
 :::
 
 
+#
+
+:::::::::::::: {.columns}
+:::::: {.column width="50%"}
+**takaway**
+
+- there is a barrier effect 
+- which affects people differently based on background
+
+::::::
+:::::: {.column width="50%"}
+**future work**
+
+- socio-economic status
+- different time interval
+    - workdays - weekends
+    - time of the day
+
+::::::
+::::::::::::::
+
 
 # thanks for the attention! {background-color="#181d37" .text-color-white background-image="assets/by-sa.svg" background-size="10vw" background-position="1.25rem calc(100% - 1.25rem)" .light-slide-number}
 <!-- # thanks for the attention! {background-color="#181d37" .text-color-white background-size="23vw" background-position="1.25rem calc(100% - 1.25rem)"} -->
