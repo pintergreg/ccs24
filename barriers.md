@@ -218,6 +218,10 @@ by barrier types:
 :::
 
 
+## BCR by barrier types
+
+![](figures/crossing_ratio.png){width=500}
+
 ## classify users based on home location
 
 trips within Budapest are considered
