@@ -70,10 +70,6 @@ all roads lead to Rome
 ::::::::: {.column width="50%"}
 :::::: {.r-stack}
 ::: {}
-![](figures/route_connect_and_divide.png){width=350}
-
-:::
-::: {.fragment data-fragment-index=1}
 ![](figures/amenity_attracts.png){width=350}
 
 :::
@@ -83,12 +79,13 @@ all roads lead to Rome
 - complex amenities foster social mixing [@juhasz2023amenity]
 - complex as in economic complexity
 - still working combining the two branches of research
+
 :::::::::
 ::::::::::::::
 
 
 ::: notes
-- I'm not gonna lie, the equation is not complete; amenities also influence the mobility
+- the equation is not complete, there are factors like amenities, which also influence the mobility
 - amenities attract people and that attraction force could be strong enough to make people overcome any barriers
 - for example, the workplace or an amenity with unique behavior
     - in an earlier work, we defined that uniqueness as complexity applying economic complexity to the urban mobility setting and also found that complex amenities foster social mixing
