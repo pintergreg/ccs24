@@ -266,6 +266,19 @@ but the classification is not restricted to Budapest
 ::::::
 ::::::::::::::
 
+## back to amenities
+
+::: {}
+$$ log BCR_{\gamma, n}^{c} = \alpha + \beta_1\log{D_c} + \beta_2\log{AC_j} + \epsilon $$
+
+::: {.text-smaller}
+$AC_j$ complexity of amenity portfolio of the visited $j$ location as proposed by [@juhasz2023amenity]
+
+:::
+:::
+
+![](figures/ibcr_avg_visitation_complexity.png){width=600}
+
 
 # Nagoya metropolitan area
 
