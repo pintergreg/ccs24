@@ -365,3 +365,7 @@ already available on [[arXiv](https://arxiv.org/abs/2312.11343)]{.anchor-color-l
 
 ::: {#refs}
 :::
+
+# stop distribution of agglomeration dwellers {visibility=uncounted}
+
+![](figures/stop_distribution_sankey.png){width=720}
