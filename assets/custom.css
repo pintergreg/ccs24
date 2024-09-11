@@ -62,13 +62,17 @@
 }
 #title-slide p.date {
     font-size: 1.5rem;
-    /** hack for netmob logo **/
+    /** hack for conference logo **/
     padding-top: 110px;
     background-image: url(ccs2024_logo.png); 
     background-size: auto 100px;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: top;
+}
+#title-slide[data-conference-logo="hidden"] p.date {
+    background-image: none; 
+    padding-top: 0;
 }
 #title-slide {
     overflow-y: visible;
