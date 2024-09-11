@@ -30,6 +30,12 @@ jobs:
                   mkdir public
                   cp barriers.html public/index.html
 
+            - name: compile short presentaion
+              run: |
+                  ruby build.rb -m barriers_short
+                  mkdir public/short
+                  cp barriers_short.html public/short/index.html
+
             - name: deploy
               uses: peaceiris/actions-gh-pages@v4
               with:
